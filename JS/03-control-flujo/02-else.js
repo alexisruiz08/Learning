@@ -1,12 +1,13 @@
 // determina dos condiciones 
+
 let edad = 12;
 
 if (edad > 18) {
-    console.log('es mayor');
+    console.log('Usuario mayor de edad');
 } else if (edad > 13) {
-    console.log('debe estar con un mayor');
+    console.log('Usuario necesita estar acompañado de sus padres');
 } else {
-    console.log('es menor');
+    console.log('No puede ingresar');
 }
 
 
